@@ -224,14 +224,14 @@
 <body>
   <main class="stage" id="stage">
     <section class="intro" id="intro">
-      <h1 class="main-title">Love you.</h1>
+      <h1 class="main-title">Je t'aime mon coeur.</h1>
       <div class="log">
-        <div class="log-line">[system] Initializing HEART_PROTOCOL_v2.0...</div>
-        <div class="log-line">[status] Loading memory fragments...</div>
-        <div class="log-line">[fonts] Preloading custom heart font for you...</div>
-        <div class="log-line">[ready] One message is waiting.</div>
+        <div class="log-line">[système] Initialisation du protocol doudou chaton...</div>
+        <div class="log-line">[statut] Chargement de mon chaton...</div>
+        <div class="log-line">[Doudou coeur] Distribution de bisous...</div>
+        <div class="log-line">[Prêt] Tu as un message!!.</div>
       </div>
-      <button class="button" id="startBtn">ACCEPT MESSAGE</button>
+      <button class="button" id="startBtn">ACCEPTER LE MESSAGE</button>
     </section>
 
     <section class="heart-wrap" id="heart"></section>
@@ -244,7 +244,7 @@
     const startBtn = document.getElementById("startBtn");
     const stage = document.getElementById("stage");
 
-    const words = ["I love you", "love you", "forever", "my heart", "<3"];
+    const words = ["je t'aime", "je t'adore", "pour toujours", "mon coeur", "<3"];
     const points = [];
     const step = 0.105;
 
@@ -286,7 +286,7 @@
 
       const center = document.createElement("div");
       center.className = "center-text";
-      center.textContent = "Love you.";
+      center.textContent = "Je t'aime <3.";
       fragment.appendChild(center);
 
       heart.innerHTML = "";
